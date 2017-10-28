@@ -34,29 +34,32 @@
          style="position: sticky; top: 0px; z-index: 999;">
       <div href="javascript:;"
            class="search"
-           style="top: 0px; z-index: 999;"><router-link class="content" to="/search">
-        <svg>
-          <use xmlns:xlink="http://www.w3.org/1999/xlink"
-               xlink:href="#search">
-            <svg viewBox="0 0 14 14"
-                 id="search"
-                 width="100%"
-                 height="100%">
-              <g fill="#999"
-                 fill-rule="evenodd">
-                <path fill-rule="nonzero"
-                      d="M5.5 9.5a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0 1.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11z"></path>
-                <rect width="1.5"
-                      height="6"
-                      x="9.904"
-                      y="7.859"
-                      rx=".5"
-                      transform="rotate(-45 10.654 10.859)"></rect>
-              </g>
-            </svg>
-          </use>
-        </svg>
-        <span>搜索商家、商品名称</span></router-link></div>
+           style="top: 0px; z-index: 999;">
+        <router-link class="content"
+                     to="/search">
+          <svg>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="#search">
+              <svg viewBox="0 0 14 14"
+                   id="search"
+                   width="100%"
+                   height="100%">
+                <g fill="#999"
+                   fill-rule="evenodd">
+                  <path fill-rule="nonzero"
+                        d="M5.5 9.5a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm0 1.5a5.5 5.5 0 1 1 0-11 5.5 5.5 0 0 1 0 11z"></path>
+                  <rect width="1.5"
+                        height="6"
+                        x="9.904"
+                        y="7.859"
+                        rx=".5"
+                        transform="rotate(-45 10.654 10.859)"></rect>
+                </g>
+              </svg>
+            </use>
+          </svg>
+          <span>搜索商家、商品名称</span></router-link>
+      </div>
     </div>
     <div class=""></div>
     <section>
@@ -168,8 +171,10 @@
       </div>
     </section>
     <h3 class="index-title">推荐商家</h3>
-    <section  v-for="(item,index) in submitForm" class="index-container_10L_lQb shop-0"
-             show-cart-quantity="true"  v-if="item.status">
+    <section v-for="(item,index) in submitForm"
+             class="index-container_10L_lQb shop-0"
+             show-cart-quantity="true"
+             v-if="item.status">
       <div class="logo-container_XoH2Vit_0">
         <div class="logo-main_21aInWJ_0"><img alt="绿茶餐厅(北京崇文门店)"
                                               class="logo-logo_3S1eSkn_0"
@@ -187,19 +192,32 @@
             <div class="rating-wrapper_3sl9ijQ_0">
               <div class="rating-gray_h-5T1ij_0">
                 <svg>
-                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star-gray.cc081b9">
-                    <svg viewBox="0 0 60 10" id="star-gray.cc081b9" width="100%" height="100%">
-                      <path fill="#EEE" fill-rule="evenodd" d="M54.017 8.072l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L53.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm-48 0L3.465 9.633c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L5.63.589c.213-.515.557-.523.774 0L7.55 3.352l2.982.237c.556.044.67.368.24.736L8.497 6.269l.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L17.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L29.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L41.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56z">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                       xlink:href="#star-gray.cc081b9">
+                    <svg viewBox="0 0 60 10"
+                         id="star-gray.cc081b9"
+                         width="100%"
+                         height="100%">
+                      <path fill="#EEE"
+                            fill-rule="evenodd"
+                            d="M54.017 8.072l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L53.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm-48 0L3.465 9.633c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L5.63.589c.213-.515.557-.523.774 0L7.55 3.352l2.982.237c.556.044.67.368.24.736L8.497 6.269l.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L17.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L29.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L41.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56z">
                       </path>
                     </svg>
                   </use>
                 </svg>
               </div>
-              <div class="rating-actived_fJcqa6U_0" :style="{width: (item.rating*20)+'%'}">
+              <div class="rating-actived_fJcqa6U_0"
+                   :style="{width: (item.rating*20)+'%'}">
                 <svg>
-                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star-actived.d4c54d1">
-                    <svg viewBox="0 0 60 10" id="star-actived.d4c54d1" width="100%" height="100%">
-                      <path fill="yellow" fill-rule="evenodd" d="M54.017 8.072l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L53.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm-48 0L3.465 9.633c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L5.63.589c.213-.515.557-.523.774 0L7.55 3.352l2.982.237c.556.044.67.368.24.736L8.497 6.269l.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L17.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L29.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L41.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56z">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                       xlink:href="#star-actived.d4c54d1">
+                    <svg viewBox="0 0 60 10"
+                         id="star-actived.d4c54d1"
+                         width="100%"
+                         height="100%">
+                      <path fill="yellow"
+                            fill-rule="evenodd"
+                            d="M54.017 8.072l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L53.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm-48 0L3.465 9.633c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L5.63.589c.213-.515.557-.523.774 0L7.55 3.352l2.982.237c.556.044.67.368.24.736L8.497 6.269l.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L17.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L29.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56zm12 0l-2.552 1.561c-.476.291-.758.096-.626-.455l.696-2.909-2.273-1.944c-.424-.362-.325-.691.239-.736l2.982-.237L41.63.589c.213-.515.557-.523.774 0l1.146 2.763 2.982.237c.556.044.67.368.24.736l-2.274 1.944.696 2.91c.13.542-.143.75-.626.454l-2.551-1.56z">
                       </path>
                     </svg>
                   </use>
@@ -207,13 +225,16 @@
               </div>
             </div>
             <span class="index-rate_WsK58g8">{{ item.rating }}</span> <span>月售{{ item.recent_order_num }}单</span></div>
-          <div class="index-deliveryWrap_Mpu6t9_"><!----> <span class="index-iconDelivery_1lu0TGf index-hollow_1HrLOuT" v-if="item.delivery_mode">
+          <div class="index-deliveryWrap_Mpu6t9_"><!----> <span class="index-iconDelivery_1lu0TGf index-hollow_1HrLOuT"
+                                                                v-if="item.delivery_mode">
             蜂鸟配送
         </span></div>
         </section>
         <section class="index-line_2-iYR1A">
-          <div class="index-moneylimit_2fCq9W5"><span>¥{{ item.float_minimum_order_amount }}起送</span> <span>配送费¥{{ item.float_delivery_fee }}</span> <!----></div>
-          <div class="index-timedistanceWrap_2Dp_kzY"><span class="index-distanceWrap_1EPAlti">{{ item.distance/1000 }}km</span>
+          <div class="index-moneylimit_2fCq9W5"><span>¥{{ item.float_minimum_order_amount }}起送</span>
+            <span>配送费¥{{ item.float_delivery_fee }}</span> <!----></div>
+          <div class="index-timedistanceWrap_2Dp_kzY"><span class="index-distanceWrap_1EPAlti">{{ item.distance / 1000
+            }}km</span>
             <span>{{ item.order_lead_time }}分钟</span></div>
         </section> <!---->
         <svg class="index-dashedline_7B79b3W">
@@ -222,22 +243,79 @@
         </svg>
         <section class="index-activities_25AUDsx">
           <div class="index-activityList_1wvwwUY">
-            <div class="index-actRow_2f_uNNA"  v-for="items in item.activities"><span class="index-icon_1fBCxBk"
-                                                    :style="'background-color:'+ '#' + items.icon_color">{{ items.icon_name }}</span>
-              <span style="display: block;" class="index-desc_JLha7Vr">{{ items.description }}</span></div>
+            <div class="index-actRow_2f_uNNA"
+                 v-for="items in item.activities"><span class="index-icon_1fBCxBk"
+                                                        :style="'background-color:'+ '#' + items.icon_color">{{ items.icon_name
+              }}</span>
+              <span style="display: block;"
+                    class="index-desc_JLha7Vr">{{ items.description }}</span></div>
           </div>
-          <div class="index-activityBtn_tMk-e1C" v-if="item.activities.length>2">
+          <div class="index-activityBtn_tMk-e1C"
+               v-if="item.activities.length>2">
             {{item.activities.length}}个活动
-            <svg  :class="{classa: item.is_new}" @click="toggle(index)"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#activity-more.c46fec1"><svg viewBox="0 0 12 6" id="activity-more.c46fec1" width="100%" height="100%"><path fill-rule="evenodd" d="M4.577 5.423c.79.77 2.073.767 2.857 0l4.12-4.026C12.345.625 12.09 0 10.985 0H1.027C-.077 0-.33.63.457 1.397l4.12 4.026z"></path></svg></use></svg></div>
+            <svg :class="{classa: item.is_new}"
+                 @click="toggle(index)">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                   xlink:href="#activity-more.c46fec1">
+                <svg viewBox="0 0 12 6"
+                     id="activity-more.c46fec1"
+                     width="100%"
+                     height="100%">
+                  <path fill-rule="evenodd"
+                        d="M4.577 5.423c.79.77 2.073.767 2.857 0l4.12-4.026C12.345.625 12.09 0 10.985 0H1.027C-.077 0-.33.63.457 1.397l4.12 4.026z"></path>
+                </svg>
+              </use>
+            </svg>
+          </div>
         </section>
       </div>
     </section>
+    <div style="opacity: 0;"class="BackTop-wrapper_3XDbcaq">
+      <svg class="BackTop-icon_2Js4K94">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink"
+             xlink:href="#back-top.f9a58c0">
+          <svg viewBox="0 0 138 128"
+               id="back-top.f9a58c0"
+               width="100%"
+               height="100%">
+            <g fill="#757575"
+               fill-rule="evenodd"
+               transform="translate(18 11)">
+              <rect width="98.522"
+                    height="8.917"
+                    x="2.239"
+                    rx="4.458"></rect>
+              <rect width="89.565"
+                    height="8.917"
+                    x="6.717"
+                    y="57.958"
+                    rx="4.458"
+                    transform="rotate(90 51.5 62.417)"></rect>
+              <rect width="71.652"
+                    height="8.917"
+                    x="-6.671"
+                    y="40.171"
+                    rx="4.458"
+                    transform="scale(-1 1) rotate(45 0 -25.757)"></rect>
+              <rect width="71.652"
+                    height="8.917"
+                    x="38.112"
+                    y="40.171"
+                    rx="4.458"
+                    transform="rotate(45 73.938 44.63)"></rect>
+            </g>
+          </svg>
+        </use>
+      </svg>
+    </div>
   </div>
 </template>
 <script>
   import store from '../../Vuex/Vuex'
   import Pichash from '../../../static/js/pic'
   import floor from '../../../static/js/Floor'
+
+
 
   export default{
     data(){
@@ -251,29 +329,47 @@
       store.commit('Axios')
     },
     methods: {
-        pic(data){
-          let msg = Pichash(data)
-          return msg
-        },
-        floornum(data){
-          let msg = floor(data)
-          return msg
-        },
-        toggle(data){
-          this.submitForm[data].is_new =!this.submitForm[data].is_new
-        }
+      pic(data){
+        let msg = Pichash(data)
+        return msg
+      },
+      floornum(data){
+        let msg = floor(data)
+        return msg
+      },
+      toggle(data){
+        this.submitForm[data].is_new = !this.submitForm[data].is_new
+      },
     },
     mounted(){
       var swiper = new Swiper('.swiper-container', {
         pagination: {
           el: '.swiper-pagination',
         },
+        loop: true,
+
       });
+
     },
     computed: {
       submitForm(){
         return store.state.msg
+      },
+    }
+  }
+  window.onload = function () {
+    let obtn = document.getElementsByClassName('BackTop-wrapper_3XDbcaq')[0]
+    let clientHeight = document.documentElement.clientHeight||document.body.clientHeight
+    window.onscroll = function () {
+      let oTop = document.documentElement.scrollTop||document.body.scrollTop;
+      if (oTop>=clientHeight){
+        obtn.style.opacity = '1'
+      }else {
+        obtn.style.opacity = '0'
       }
+    }
+    obtn.onclick = function () {
+      document.documentElement.scrollTop = 0
     }
   }
 </script>
@@ -287,7 +383,8 @@
     width: 50% !important;
     float: left;
   }
-  .classa{
+
+  .classa {
     transform: rotateZ(180deg);
   }
 </style>

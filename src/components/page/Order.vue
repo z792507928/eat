@@ -4,8 +4,19 @@
             class="ElemeHeader-root_lOpLxr-_0">
       <div class="ElemeHeader-wrapper_2rUT4SE_0 ElemeHeader-fixed_3OoT0dS_0 ElemeHeader-gradientBg_3_Tu-JD_0"
            style="z-index: 8844;">
-        <div class="ElemeHeader-left_7jLVUf9_0">
-          <svg><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#arrow-left.6f6409e"></use></svg>
+        <div class="ElemeHeader-left_7jLVUf9_0" onclick="location.pathname='/'">
+          <svg>
+            <use xmlns:xlink="http://www.w3.org/1999/xlink"
+                 xlink:href="#arrow-left.6f6409e">
+              <svg viewBox="0 0 20 32"
+                   id="arrow-left.6f6409e"
+                   width="100%"
+                   height="100%">
+                <path fill="#fff"
+                      d="M16.552 5.633L14.508 3.59 2.243 15.853 14.508 28.41l2.044-2.043-10.22-10.513z"></path>
+              </svg>
+            </use>
+          </svg>
         </div>
         <h1 class="ElemeHeader-center_2hbxfGq_0">订单</h1></div>
     </header>
@@ -46,15 +57,18 @@
     border-top: 1px solid #eee;
     border-bottom: .013333rem solid #eee;
   }
+
   .nodatatipWrap[data-v-1ec2d114] {
     margin-top: 2.666667rem;
   }
+
   .NoDataTip-wrapper_1Gwf0tm h3 {
     margin: .333333rem 0 .266667rem;
     color: #6a6a6a;
     font-weight: 400;
     font-size: .453333rem;
   }
+
   .NoDataTip-wrapper_1Gwf0tm button {
     padding: .266667rem;
     min-width: 3.2rem;
@@ -64,5 +78,6 @@
     color: #fff;
     text-align: center;
     font-size: 1.2em;
-    font-family: inherit;}
+    font-family: inherit;
+  }
 </style>

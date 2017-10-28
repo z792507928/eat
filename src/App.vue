@@ -6,13 +6,13 @@
 </template>
 
 <script>
-import HelloWorld from './components/app'
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
+  import HelloWorld from './components/app'
+  export default {
+    name: 'app',
+    components: {
+      HelloWorld
+    }
   }
-}
 </script>
 
 <style>

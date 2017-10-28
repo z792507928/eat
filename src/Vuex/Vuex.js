@@ -7,7 +7,8 @@ Vue.use(Vuex)
 const state = {
   count: 0,
   msg: '',
-  key:''
+  key:'',
+  con: ''
 }
 
 const mutations = {
@@ -20,19 +21,20 @@ const mutations = {
   Axios(){
     axios.get('/api/child')
       .then(function (response) {
-        state.msg = response.data[0]
-        console.log(state.msg)
+        state.msg = response.data
       })
       .catch(function (error) {
         console.log(error);
       });
   },
   Find(){
-    axios.get('/api/find',{
-      params: {
-        'key': state.key
-      }
-    })
+    axios.get('/api/find?key=' +state.key)
+      .then(function (res) {
+        state.con = res.data
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
   }
 
 }

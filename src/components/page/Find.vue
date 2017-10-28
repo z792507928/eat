@@ -3,10 +3,18 @@
     <header class="ElemeHeader-root_lOpLxr-_0">
       <div class="ElemeHeader-wrapper_2rUT4SE_0 ElemeHeader-fixed_3OoT0dS_0 ElemeHeader-gradientBg_3_Tu-JD_0"
            style="z-index: 8844;">
-        <div class="ElemeHeader-left_7jLVUf9_0">
-          <svg>
+        <div class="ElemeHeader-left_7jLVUf9_0" onclick="location.pathname='/'">
+          <svg >
             <use xmlns:xlink="http://www.w3.org/1999/xlink"
-                 xlink:href="#arrow-left.6f6409e"></use>
+                 xlink:href="#arrow-left.6f6409e">
+              <svg viewBox="0 0 20 32"
+                   id="arrow-left.6f6409e"
+                   width="100%"
+                   height="100%">
+                <path fill="#fff"
+                      d="M16.552 5.633L14.508 3.59 2.243 15.853 14.508 28.41l2.044-2.043-10.22-10.513z"></path>
+              </svg>
+            </use>
           </svg>
         </div>
         <h1 class="ElemeHeader-center_2hbxfGq_0">发现</h1></div>
